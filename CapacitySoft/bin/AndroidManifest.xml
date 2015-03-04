@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tesis.capacitysoft"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+      <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+  
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+          <activity android:name="MainActivity"
+              android:screenOrientation="portrait"
+              ></activity>
+        <activity android:name="Registro"></activity>
+        <activity android:name="Menu_principal"></activity>
+         <activity android:name="Menu_principal1"></activity>
+        <activity android:name="Recuperar_Contrasenia"></activity>
+        <activity android:name="Recursos"></activity>
+         <activity android:name="Capacitaciones"></activity>
+         <activity android:name="Recusos_dos"></activity>
+         <activity android:name="Consultar_Capacitador1"></activity>
+         <activity android:name="Enviar_Llamar"></activity>
+         <activity android:name="Email_capacitador"></activity>
+          <activity android:name="Enviar_correocapacitador"></activity>
+          <activity android:name="Historial_capacitaciones"></activity>
+          <activity android:name="MenuPadre"></activity>
+          <activity android:name="Menu_Capacitaciones"></activity>  
+          <activity android:name="Informacion_capacitacion"></activity>  
+           <activity android:name="Informacion_capacitacionp"></activity>  
+            <activity android:name="Prueba"></activity> 
+              <activity android:name="Prueba1"></activity>  
+               <activity android:name="Respuesta"></activity>  
+                <activity android:name="Capacitaciones_pasadas"></activity>  
+      <activity android:name="com.keyes.youtube.OpenYouTubePlayerActivity"
+          		android:screenOrientation="landscape"
+          		android:configChanges="orientation"
+          		android:theme="@android:style/Theme.Black"
+          		android:label="@string/app_name" 
+          ></activity> 
+    
+    
+    </application>
+
+</manifest>

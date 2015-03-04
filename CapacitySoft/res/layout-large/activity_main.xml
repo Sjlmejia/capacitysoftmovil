@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tesis.capacitysoft.MainActivity" >
+
+<EditText
+    android:id="@+id/txt_contrasenia"
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    android:layout_above="@+id/btn_login"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="22dp"
+    android:background="#FAFAFA"
+    android:ems="10"
+    android:hint="Contraseña"
+    android:inputType="textPassword"
+    android:textColor="#2E2E2E"
+    android:textColorHint="#757575" />
+
+<EditText
+    android:id="@+id/txt_correoca"
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    android:layout_above="@+id/txt_contrasenia"
+    android:layout_alignLeft="@+id/txt_contrasenia"
+    android:layout_alignRight="@+id/txt_contrasenia"
+    android:background="#FAFAFA"
+     android:textColor="#2E2E2E"
+    android:textColorHint="#757575"
+    android:ems="10"
+    android:hint="Correo"
+    android:inputType="textEmailAddress"
+    >
+
+    <requestFocus />
+
+</EditText>
+
+<Button
+    android:id="@+id/btn_login"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_alignLeft="@+id/txt_contrasenia"
+    android:layout_alignParentBottom="true"
+    android:layout_alignRight="@+id/txt_contrasenia"
+    android:layout_marginBottom="157dp"
+    android:background="@drawable/botonpulsado"
+    android:text="Iniciar Sesión"
+    android:textColor="#EDE7F6"
+    android:textSize="25sp" />
+
+<Button
+    android:id="@+id/btn_registro"
+    android:layout_width="220dp"
+    android:layout_height="49dp"
+    android:layout_alignLeft="@+id/btn_login"
+    android:layout_alignTop="@+id/btn_login"
+    android:layout_marginTop="65dp"
+    android:background="@drawable/botonpulsadodos"
+    android:text="Registrarse"
+    android:textColor="#EDE7F6"
+    android:textSize="18sp" />
+
+<Button
+    android:id="@+id/btn_recuperarCon"
+    android:layout_width="220dp"
+    android:layout_height="49dp"
+    android:layout_alignBaseline="@+id/btn_registro"
+    android:layout_alignBottom="@+id/btn_registro"
+    android:layout_alignRight="@+id/btn_login"
+    android:background="@drawable/botonpulsadodos"
+    android:text="Olvido Contraseña"
+    android:textColor="#EDE7F6"
+    android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/lblsald"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="125dp"
+    android:shadowColor="#757575"
+    android:shadowDx="5"
+    android:shadowDy="5"
+    android:shadowRadius="10"
+    android:text="CAPACITYSOFT"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#263238"
+    android:textSize="40sp"
+    android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/s"
+     >
+    <LinearLayout
+        android:id="@+id/lyt_respuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="78dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+     
+
+    <Button
+        android:id="@+id/btn_guardarRespuesta"
+           android:layout_width="250dp"
+    android:layout_height="53dp"
+    android:background="@drawable/botonpulsado"
+     android:textColor="#EDE7F6"
+    android:textSize="23sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="144dp"
+      
+        android:text="Guardar Respuesta"
+        />
+
+    <Button
+        android:id="@+id/btn_cancelarrespuesta"
+    android:layout_width="250dp"
+    android:layout_height="43dp"
+     android:background="@drawable/botoncancela"
+     android:textColor="#EDE7F6"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btn_guardarRespuesta"
+        android:layout_marginTop="56dp"
+        android:text="Atras"
+         />
+
+</RelativeLayout>

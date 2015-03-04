@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s"
+     >
+        <Button
+      android:id="@+id/btn_cancelarrecursos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+       android:background="@drawable/botonpulsa"
+     android:textColor="#EDE7F6"
+        android:textSize="15sp"
+          android:textStyle="bold"
+      android:text="Atras"
+     />
+
+        <ListView
+            android:id="@+id/listarecursos"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="17dp" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/lbl_recursos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btn_cancelarrecursos"
+            android:layout_marginTop="52dp"
+            android:text="Recursos de la Capacitacion"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#263238"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+</RelativeLayout>

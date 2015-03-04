@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s"
+    tools:ignore="HardcodedText,UselessParent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_capRecuperada1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#263238"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cancelarmenuprincipal1"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="81dp"
+            android:background="@drawable/botoncancela"
+            android:text="Cancelar"
+            android:textColor="#EDE7F6"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btn_recurso1"
+            android:layout_width="300dp"
+            android:layout_height="63dp"
+            android:layout_above="@+id/btn_cancelarmenuprincipal1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/botonpulsado"
+            android:text="Recursos"
+            android:textColor="#EDE7F6"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btn_concap1"
+            android:layout_width="300dp"
+            android:layout_height="63dp"
+            android:layout_above="@+id/btn_recurso1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/botonpulsado"
+            android:text="Consultar Capacitador"
+            android:textColor="#EDE7F6"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btn_iCapacitacion1"
+            android:layout_width="300dp"
+            android:layout_height="63dp"
+            android:layout_above="@+id/btn_concap1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/botonpulsado"
+            android:text="Información Capacitación"
+            android:textColor="#EDE7F6"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btn_registrasecap"
+            android:layout_width="300dp"
+            android:layout_height="63dp"
+            android:layout_above="@+id/btn_iCapacitacion1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="46dp"
+            android:background="@drawable/botonpulsado"
+            android:text="Registrarse"
+            android:textColor="#EDE7F6"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

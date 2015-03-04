@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s"
+     >
+
+        <ListView
+            android:id="@+id/list_capacitadores"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" >
+
+        </ListView>
+  <Button
+        android:id="@+id/btn_cancelarconsultarcapacitado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Cancelar" 
+        android:background="@drawable/botonpulsa"
+        android:textColor="#EDE7F6"
+        android:textSize="15sp"
+          android:textStyle="bold"
+        />
+
+  <TextView
+      android:id="@+id/lbl_capacitador"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@+id/btn_cancelarconsultarcapacitado"
+      android:layout_marginLeft="104dp"
+      android:layout_marginTop="112dp"
+      android:text="Capacitadores"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textColor="#263238"
+      android:textSize="35sp"
+      android:textStyle="bold" />
+
+</RelativeLayout>

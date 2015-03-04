@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s"
+     >
+    <TextView
+        android:id="@+id/lbl_temap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt_asunto"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:text="Asunto:"
+        android:textSize="23sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/txt_asunto"
+        android:layout_width="wrap_content"
+        android:layout_height="43sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:background="#FAFAFA"
+        android:ems="10"
+        android:hint="Asunto"
+        android:textColor="#2E2E2E"
+        android:textColorHint="#757575" />
+
+    <TextView
+        android:id="@+id/lbl_recp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="58dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="Enviar Correo"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#263238"
+    android:textSize="40sp"
+    android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt_enviarcorreo"
+        android:layout_alignBottom="@+id/txt_enviarcorreo"
+        android:layout_alignLeft="@+id/lbl_temap"
+        android:text="Contenido:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/txt_enviarcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_asunto"
+        android:layout_marginTop="55dp"
+        android:background="#FAFAFA"
+        android:ems="10"
+        android:hint="Contenido"
+        android:inputType="textMultiLine"
+        android:textColor="#2E2E2E"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/btn_enviarcorreo"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_enviarcorreo"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/botonpulsado"
+        android:text="Enviar"
+        android:textColor="#EDE7F6"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_cancelar_enviarcc"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_enviarcorreo"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/botoncancela"
+        android:text="Cancelar"
+        android:textColor="#EDE7F6"
+        android:textSize="25sp" />
+
+</RelativeLayout>

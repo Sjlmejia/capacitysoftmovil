@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s" >
+
+   <Button
+      android:id="@+id/btn_cancelarrecursos2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+    
+      android:text="Atras"
+          android:background="@drawable/botonpulsa"
+     android:textColor="#EDE7F6"
+        android:textSize="15sp"
+          android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lbl_prueba1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_cancelarrecursos2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Tipos de Recursos"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#263238"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_recursovideo"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/lbl_prueba1"
+        android:layout_below="@+id/lbl_prueba1"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/botonpulsado"
+        android:text="Video"
+        android:textColor="#EDE7F6"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btn_recursopdf"
+        android:layout_width="250dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/btn_recursovideo"
+        android:layout_below="@+id/btn_recursovideo"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/botonpulsado"
+        android:text="Enlace a Documento"
+        android:textColor="#EDE7F6"
+        android:textSize="23sp" />
+
+</RelativeLayout>

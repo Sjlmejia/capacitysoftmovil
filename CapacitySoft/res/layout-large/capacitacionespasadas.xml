@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@drawable/s"
+     >
+
+    <ListView
+        android:id="@+id/listaCapacitacionespasadas "
+      
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+      
+       
+        
+         >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_cancelarcpacitacionespasadas"
+      android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Cancelar" 
+         android:background="@drawable/botonpulsa"
+        android:textColor="#EDE7F6"
+        android:textSize="15sp"
+          android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/lbl_pruebap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_cancelarcpacitacionespasadas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Capacitaciones Pasadas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#263238"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

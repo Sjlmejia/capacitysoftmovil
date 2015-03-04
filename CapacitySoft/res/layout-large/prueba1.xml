@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/s"
+    
+    >
+
+  <Button
+      android:id="@+id/btn_cancelarprueba1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+    
+      android:text="Cancelar"
+                 android:background="@drawable/botonpulsa"
+     android:textColor="#EDE7F6"
+        android:textSize="15sp"
+          android:textStyle="bold" />
+
+
+  <Chronometer
+      android:id="@+id/cronometroprueba"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="26dp"
+      android:paddingTop="50sp"
+      android:textSize="15sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/lbl_calificacion"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/btn_cancelarprueba1"
+      android:layout_alignBottom="@+id/btn_cancelarprueba1"
+      android:layout_alignLeft="@+id/lbl_prueba1"
+      android:layout_marginLeft="34dp"
+      android:text="Small Text"
+      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  <ListView
+      android:id="@+id/list_pregunta"
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:layout_above="@+id/btn_calificar"
+      android:layout_alignParentLeft="true"
+      android:layout_marginBottom="66dp" >
+  </ListView>
+
+  <TextView
+      android:id="@+id/lbl_prueba1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/cronometroprueba"
+      android:layout_marginTop="56dp"
+      android:layout_toRightOf="@+id/cronometroprueba"
+      android:text="Listado de preguntas"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textColor="#263238"
+      android:textSize="35sp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/btn_calificar"
+        android:layout_width="300dp"
+            android:layout_height="63dp"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="34dp"
+      android:background="@drawable/botonpulsado"
+      android:text="Guardar Evaluacion"
+      android:textColor="#EDE7F6"
+      android:textSize="28sp" />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s" >
+
+    <Button
+        android:id="@+id/btn_cancelarmenucapacitaciones"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_alignLeft="@+id/btn_hisCap"
+        android:layout_below="@+id/btn_hisCap"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/botoncancela"
+        android:text="Cancelar"
+        android:textColor="#EDE7F6"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lbl_calificacionh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:text="Seleccione una Opción:"
+        android:textColor="#263238"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_CapDispon"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lbl_calificacionh"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/botonpulsado"
+        android:text="Capacitaciones Disponibles"
+        android:textColor="#EDE7F6"
+        android:textSize="23sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_hisCap"
+        style="@style/st_main_menu"
+         android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_CapDispon"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/botonpulsado"
+        android:text="Historial de Capacitaciones"
+        android:textColor="#EDE7F6"
+        android:textSize="23sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
